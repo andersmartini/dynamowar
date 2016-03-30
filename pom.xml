@@ -52,8 +52,6 @@
                   <server>127.0.0.1:8080</server>
                   <username>tomcat</username>
                   <password>tomcat</password>
-
-
               </configuration>
           </plugin>
       </plugins>
