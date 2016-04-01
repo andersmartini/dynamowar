@@ -10,10 +10,18 @@
     <servlet-name>ByYearServlet</servlet-name>
     <servlet-class>ByYearServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>TestServlet</servlet-class>
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>ByYearServlet</servlet-name>
-    <url-pattern>"/byyear"</url-pattern>
+    <url-pattern>/byyear</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/test</url-pattern>
   </servlet-mapping>
 
 </web-app>

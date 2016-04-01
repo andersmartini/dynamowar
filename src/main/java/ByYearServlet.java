@@ -66,9 +66,6 @@ public class ByYearServlet extends HttpServlet {
         }catch(Exception e){
             reply.write("Unable to query movies from " + param + " \n" + e.getMessage());
         }
-
-
-
         reply.write(result);
 
 

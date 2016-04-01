@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="DynamoTest" />
+        <module name="Dynamo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DynamoTest" target="1.5" />
+      <module name="Dynamo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
